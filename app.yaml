@@ -4,4 +4,4 @@ command:
   - "-s"
   - "dist"
   - "-l"
-  - "8080"
+  - $PORT
