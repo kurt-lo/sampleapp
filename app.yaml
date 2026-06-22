@@ -1,4 +1,8 @@
-command:
-  - "sh"
-  - "-c"
-  - "npx serve -s dist -l $PORT"
+command: ["npm", "run", "start"]
+
+env:
+  - name: PORT
+    value: "8000"
+
+network:
+  port: 8000
